@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chromadb-ecosystem-tests"
+version = "0.1.0"
+description = ""
+authors = ["Trayan Azarov <trayan.azarov@amikos.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^7.4.4"
+hypothesis = "^6.92.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
